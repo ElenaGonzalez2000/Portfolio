@@ -1,4 +1,4 @@
-// FUNCION PARA MOSTRAR LAS SKILLS
+// funcion para mostrar las skills
 const skills = [
   "HTML5",
   "CSS3",
@@ -8,24 +8,11 @@ const skills = [
   "Git",
   "GitHub",
 ];
-const skillsIcons = skills.map((element) => element.toLocaleLowerCase());
-console.log(skillsIcons);
 
-const softSkills = [
-  "Trabajo en equipo",
-  "Adaptabilidad y flexibilidad",
-  "Gestion del tiempo",
-  "Comunicacion efectiva",
-  "Empatía",
-  "Pensamiento crítico",
-  "Profesionalismo",
-  "Aprendizaje continuo",
-  "Creatividad",
-];
+const skillsIcons = skills.map((element) => element.toLocaleLowerCase());
 
 const renderSkills = (skills, skillsIcons) => {
   const skillsContainer = document.querySelector(".skills-container");
-  // skillsContainer.classList.add("flex", "gap-3", "justify-center")
 
   skills.forEach((skill, index) => {
     const content = document.createElement("div");
@@ -47,6 +34,21 @@ const renderSkills = (skills, skillsIcons) => {
   });
 };
 renderSkills(skills, skillsIcons);
+
+
+// funcion para mostrar las habilidades blandas
+
+const softSkills = [
+  "Trabajo en equipo",
+  "Adaptabilidad y flexibilidad",
+  "Gestion del tiempo",
+  "Comunicacion efectiva",
+  "Empatía",
+  "Pensamiento crítico",
+  "Profesionalismo",
+  "Aprendizaje continuo",
+  "Creatividad",
+];
 
 const renderSoftSkills = (softSkills) => {
   const softSkillsContainer = document.querySelector(".softSkills-container");

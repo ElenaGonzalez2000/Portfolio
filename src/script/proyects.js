@@ -1,11 +1,12 @@
 class Target {
-  constructor(tittle, description, img, labels, icons, page) {
+  constructor(tittle, description, img, labels, icons, iconType, page) {
     this.tittle = tittle;
     this.description = description;
     this.img = img;
     this.labels = labels;
     this.icons = icons;
-    this.page = page
+    this.iconType = iconType;
+    this.page = page;
   }
 }
 
@@ -17,7 +18,8 @@ const weatherApp = new Target(
   "Esta es una aplicación del clima que utiliza la API de OpenWeather para obtener información meteorológica de diferentes ciudades.",
   weatherAppImg,
   ["HTML5", "Sass", "OpenWeather API"],
-  ["html5", "sass", "cloud"],
+  ["html5", "sass", "cloud-download"],
+  ["logo","logo",""],
   'https://weather-app-elenagonzalez.netlify.app/'
 );
 const honey = new Target(
@@ -26,6 +28,7 @@ const honey = new Target(
   honeyImg,
   ["HTML", "Sass", "Bootstrap", "JavaScript"],
   ["html5", "sass", "bootstrap", "javascript"],
+  ["logo","logo","logo","logo"],
   "https://elenagonzalez2000.github.io/Honey-update/"
 );
 
@@ -51,7 +54,7 @@ const renderTargets = (targets) => {
             (label, index) => `
         <div
         class="flex rounded-full bg-purple-600 px-2 items-center">
-        <box-icon class="fill-white" type="logo" name="${target.icons[index]}" style="width: 18px"></box-icon>
+        <box-icon class="fill-white" type="${target.iconType[index]}" name="${target.icons[index]}" style="width: 18px"></box-icon>
         <span class="text-xs text-slate-50">${label}</span>
       </div>
         `
