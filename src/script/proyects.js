@@ -12,27 +12,37 @@ class Target {
 
 const weatherAppImg = "./public/proyects/weatherApp.png";
 const honeyImg = "./public/proyects/honey.png";
+const mlLegalesImg = "./public/proyects/mllegales.png";
 
 const weatherApp = new Target(
   "Weather App",
   "Esta es una aplicación del clima que utiliza la API de OpenWeather para obtener información meteorológica de diferentes ciudades.",
   weatherAppImg,
-  ["HTML5", "Sass", "OpenWeather API"],
-  ["html5", "sass", "cloud-download"],
-  ["logo","logo",""],
+  ["HTML5", "CSS3","Sass", "OpenWeather API"],
+  ["html5", "css3", "sass", "cloud-download"],
+  ["logo","logo","logo", ""],
   'https://weather-app-elenagonzalez.netlify.app/'
 );
 const honey = new Target(
   "Honey",
   "Pagina de tienda de ropa con JavaScript",
   honeyImg,
-  ["HTML", "Sass", "Bootstrap", "JavaScript"],
-  ["html5", "sass", "bootstrap", "javascript"],
-  ["logo","logo","logo","logo"],
+  ["HTML", "CSS3", "Sass", "Bootstrap", "JavaScript"],
+  ["html5", "css3", "sass", "bootstrap", "javascript"],
+  ["logo","logo","logo","logo", "logo"],
   "https://elenagonzalez2000.github.io/Honey-update/"
 );
+const mlLegales = new Target(
+  "ML Legales",
+  "Este fue el primer proyecto que realice junto a un pequeño equipo de trabajo para un estudio juridico",
+  mlLegalesImg,
+  ["HTML5", "CSS3", "Sass", "Bootstrap"],
+  ["html5", "css3", "sass", "bootstrap"],
+  ["logo","logo","logo","logo"],
+  "https://www.mllegales.com.ar/"
+)
 
-const targets = [weatherApp, honey];
+const targets = [weatherApp, honey, mlLegales];
 
 const renderTargets = (targets) => {
   const container = document.querySelector(".proyects-container");

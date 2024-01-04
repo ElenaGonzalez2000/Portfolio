@@ -587,21 +587,8 @@ video {
   margin-bottom: 3.5rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .ml-1 {
@@ -685,19 +672,6 @@ video {
   border-radius: 0.125rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-purple-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(192 132 252 / var(--tw-border-opacity));
-}
-
 .bg-neutral-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
@@ -712,12 +686,8 @@ video {
   background-image: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9));
 }
 
-.fill-purple-400 {
-  fill: #c084fc;
-}
-
-.fill-purple-600 {
-  fill: #9333ea;
+.fill-purple-500 {
+  fill: #a855f7;
 }
 
 .fill-slate-100 {
@@ -730,10 +700,6 @@ video {
 
 .fill-white {
   fill: #fff;
-}
-
-.fill-purple-500 {
-  fill: #a855f7;
 }
 
 .p-1 {
@@ -792,9 +758,9 @@ video {
   font-weight: 500;
 }
 
-.text-purple-400 {
+.text-purple-500 {
   --tw-text-opacity: 1;
-  color: rgb(192 132 252 / var(--tw-text-opacity));
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
 .text-purple-600 {
@@ -807,29 +773,19 @@ video {
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
-.text-slate-50 {
-  --tw-text-opacity: 1;
-  color: rgb(248 250 252 / var(--tw-text-opacity));
-}
-
-.text-purple-500 {
-  --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
-}
-
-.text-slate-500 {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
-.text-slate-400 {
+.text-slate-50 {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -840,10 +796,6 @@ video {
   opacity: 0.65;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -852,41 +804,16 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-200 {
   transition-duration: 200ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
 }
 
 .ease-linear {
   transition-timing-function: linear;
 }
 
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:fill-purple-800:hover {
-  fill: #6b21a8;
-}
-
 .hover\:fill-purple-700:hover {
   fill: #7e22ce;
-}
-
-.hover\:text-purple-800:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 33 168 / var(--tw-text-opacity));
 }
 
 .hover\:text-purple-700:hover {
@@ -894,14 +821,13 @@ video {
   color: rgb(126 34 206 / var(--tw-text-opacity));
 }
 
-.hover\:opacity-100:hover {
-  opacity: 1;
+.hover\:text-purple-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 33 168 / var(--tw-text-opacity));
 }
 
-.hover\:shadow-sm:hover {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.hover\:opacity-100:hover {
+  opacity: 1;
 }
 
 .hover\:shadow-lg:hover {
@@ -929,15 +855,6 @@ video {
     fill: #7e22ce;
   }
 
-  .dark\:fill-slate-50 {
-    fill: #f8fafc;
-  }
-
-  .dark\:text-purple-300 {
-    --tw-text-opacity: 1;
-    color: rgb(216 180 254 / var(--tw-text-opacity));
-  }
-
   .dark\:text-purple-700 {
     --tw-text-opacity: 1;
     color: rgb(126 34 206 / var(--tw-text-opacity));
@@ -949,11 +866,6 @@ video {
   }
 
   .dark\:hover\:text-purple-200:hover {
-    --tw-text-opacity: 1;
-    color: rgb(233 213 255 / var(--tw-text-opacity));
-  }
-
-  .hover\:dark\:text-purple-200:hover {
     --tw-text-opacity: 1;
     color: rgb(233 213 255 / var(--tw-text-opacity));
   }
