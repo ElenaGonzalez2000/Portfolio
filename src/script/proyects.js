@@ -9,8 +9,8 @@ class Target {
   }
 }
 
-const weatherAppImg = "../public/proyects/weatherApp.png";
-const honeyImg = "../public/proyects/honey.png";
+const weatherAppImg = "./public/proyects/weatherApp.png";
+const honeyImg = "./public/proyects/honey.png";
 
 const weatherApp = new Target(
   "Weather App",
