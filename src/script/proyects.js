@@ -16,7 +16,7 @@ const mlLegalesImg = "./public/proyects/mllegales.png";
 
 const weatherApp = new Target(
   "Weather App",
-  "Esta es una aplicación del clima que utiliza la API de OpenWeather para obtener información meteorológica de diferentes ciudades.",
+  "Aplicación del clima que utiliza la API de OpenWeather para obtener información meteorológica de diferentes ciudades.",
   weatherAppImg,
   ["HTML5", "CSS3","Sass", "OpenWeather API"],
   ["html5", "css3", "sass", "cloud-download"],
@@ -25,7 +25,7 @@ const weatherApp = new Target(
 );
 const honey = new Target(
   "Honey",
-  "Pagina de tienda de ropa con JavaScript",
+  "Mi primer sitio web ecommerce realizado con JavaScript.",
   honeyImg,
   ["HTML", "CSS3", "Sass", "Bootstrap", "JavaScript"],
   ["html5", "css3", "sass", "bootstrap", "javascript"],
@@ -34,7 +34,7 @@ const honey = new Target(
 );
 const mlLegales = new Target(
   "ML Legales",
-  "Este fue el primer proyecto que realice junto a un pequeño equipo de trabajo para un estudio juridico",
+  "Este es el primer proyecto que realicé junto a un pequeño equipo de trabajo para un estudio jurídico.",
   mlLegalesImg,
   ["HTML5", "CSS3", "Sass", "Bootstrap"],
   ["html5", "css3", "sass", "bootstrap"],
