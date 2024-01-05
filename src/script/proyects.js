@@ -30,7 +30,7 @@ const honey = new Target(
   ["HTML", "CSS3", "Sass", "Bootstrap", "JavaScript"],
   ["html5", "css3", "sass", "bootstrap", "javascript"],
   ["logo","logo","logo","logo", "logo"],
-  "https://elenagonzalez2000.github.io/Honey-update/"
+  "https://elenagonzalez2000.github.io/Honey/"
 );
 const mlLegales = new Target(
   "ML Legales",
