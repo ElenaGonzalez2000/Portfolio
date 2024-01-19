@@ -54,7 +54,7 @@ const renderTargets = (targets) => {
       <h3 class="target-tittel font-bold text-purple-600 text-xl">${
         target.tittle
       }</h3>
-      <p class="target-description dark:text-slate-50">
+      <p class="target-description">
         ${target.description}
       </p>
       <a href="${target.page}" target="_blank"><img class="rounded-sm" src="${target.img}" alt="" /></a>
